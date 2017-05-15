@@ -34,4 +34,6 @@ RUN pacman -Sy --noconfirm \
         gdb
 
 
+RUN pacman -Scc --noconfirm
+
 CMD /bin/bash
